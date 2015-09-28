@@ -22,14 +22,21 @@
 
 /*Instagram API CSS */
 #instafeed {
-	text-align: center;
+	width: 100%;
 }
 
 .insta-pic {
 	border-radius:5px; 
-	max-width:13%;
-	margin-left: 5px;
-	margin-right: 5px;
+	width:100%;
+	padding-left: .5%;
+}
+
+#pic {
+	width: 13.25%; 
+	display: inline-block; 
+	*display: inline;
+	margin-left: .5%;
+	margin-right: .5%;
 }
 
 /* Twitter API CSS */
