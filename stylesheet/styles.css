@@ -1,0 +1,904 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:auto;
+	background:url('http://www.tisane-tea.com/images/wood.png');
+}
+#header-wrapper {
+	margin-top:20px;
+		background:url('http://www.tisane-tea.com/images/wood.png');
+
+}
+#header {
+	width:900px;
+	padding:0 20px;
+	margin:auto;
+}
+#header-subscribe {
+	padding:0 0 0 0;
+	margin-top:5px;
+}
+.header-subscribe-title {
+	padding:5px 0 5px 1px;
+	font-family: 'Fjalla One', sans-serif;	
+	font-size:12px;
+	text-transform:uppercase;
+	color:#4b444e;
+}
+.header-subscribe-form {
+	border:1px solid #e1e1e1;
+	width:150px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding:7px;
+	margin:0;
+	webkit-box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.15);
+	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.15);
+	color:#999;
+	font-family: 'Roboto', sans-serif;	
+	font-size:12px;
+}
+.header-subscribe-button {
+	background:hsla(282, 7%, 29%, 1);
+	color:white;
+	height:28px;
+	margin:0;
+	margin-top:1px;
+	width:30px;
+	font-family: 'Roboto', sans-serif;	
+	font-size:12px;
+	border:0;
+	padding:8px 12px;
+	margin-left:3px;
+	cursor:pointer;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.header-subscribe-button-added {
+	background:hsla(91, 25%, 45%, 1);
+	color:white;
+	height:28px;
+	margin:0;
+	margin-top:1px;
+	width:30px;
+	font-family: 'Roboto', sans-serif;	
+	font-size:12px;
+	border:0;
+	padding:8px 12px;
+	margin-left:3px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+#header-social {
+	padding-top:10px;
+	margin-left:1px;
+}
+#header-social-item {
+	margin-left:0;
+	height:30px;
+	width:30px;
+}
+#header-shop-login {
+	padding:10px 13px 10px 13px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background:hsla(282, 7%, 29%, 1);
+	margin:30px 0 0 5px;
+}
+#header-shop-login:hover {
+	padding:10px 13px 10px 13px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background:hsla(282, 7%, 29%, .95);
+	margin:20px 0 0 5px;
+}
+.header-shop-login {
+	color:white;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;	
+	font-size:12px;
+}
+#header-shop-cart {
+	padding:10px 10px 10px 30px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background:url('http://www.alkaline-tea.com/images/cart.svg') left no-repeat hsla(91, 25%, 45%, 1);
+	background-position:8px 5px;
+	margin:0px 0 0 5px;
+}
+#header-shop-cart:hover {
+	padding:10px 10px 10px 30px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background:url('http://www.alkaline-tea.com/images/cart.svg') left no-repeat hsla(91, 25%, 45%, .95);
+	background-position:8px 5px;
+	margin:0px 0 0 5px;
+}
+#header-offer {
+	margin-top:16px;
+}
+.header-offer {
+	font-size: 11px;
+	text-transform:uppercase;
+	font-family: 'Fjalla One', sans-serif;
+}
+#nav-wrapper {
+	border-top:1px solid #c5c4c2;
+	border-bottom:1px solid #c5c4c2;
+	padding:0;
+	width:900px;
+	margin:auto;
+}
+#nav {
+	text-align:center;
+	width:900px;
+	padding:0 20px;
+	color:#4b444e;
+}
+#nav-left {
+	padding-right:25px;
+}
+#nav-right {
+	padding-left:25px;
+}
+.nav {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 15px;
+	text-align:center;
+	line-height:.95;
+	font-weight: bold;
+	font-family: "CenturyGothicStd-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration:none;
+	width:100%;
+}
+.nav-sub {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 10px;
+	padding-left:8px;
+	font-weight:normal;
+	text-align:center;
+	font-family: "CenturyGothicStd-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#wrapper {
+	width:900px;
+	margin:auto;
+	padding:20px 20px 0 20px;
+	margin-top:0px;
+}
+#slide {
+	height:400px;
+	background: #f45b5b;
+	background-size:cover;
+	width:100%;
+}
+#organic {
+	margin:auto;
+	padding-top:0px;
+	margin-bottom:25px;
+	height:110px;
+}
+img.organic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+h1 {
+	font-family: "coolvetica",sans-serif;
+	font-size:50px;
+	text-align:center;
+	margin:auto;
+	padding:0 0 0 0;
+	line-height:.8;
+	color:#202120;
+}
+h1 a:link {
+	font-family: "coolvetica",sans-serif;
+	font-size:50px;
+	text-decoration:none;
+	text-align:center;
+	margin:auto;
+	padding:0 0 0 0;
+	line-height:.8;
+	color:#202120;
+}
+h1 a:visited {
+	font-family: "coolvetica",sans-serif;
+	font-size:50px;
+	text-decoration:none;
+	text-align:center;
+	margin:auto;
+	padding:0 0 0 0;
+	line-height:.8;
+	color:#202120;
+}
+h2 {
+	font-family: "coolvetica",sans-serif;
+	font-size:17px;
+	margin:auto;
+	text-align:center;
+	padding:2px 0 0 0;
+	color:#202120;
+}
+h2 a:link {
+	font-family: "coolvetica",sans-serif;
+	text-decoration:none;
+	font-size:17px;
+	margin:auto;
+	text-align:center;
+	padding:2px 0 0 0;
+	color:#202120;
+}
+h2 a:visited {
+	font-family: "coolvetica",sans-serif;
+	text-decoration:none;
+	font-size:17px;
+	margin:auto;
+	text-align:center;
+	padding:2px 0 0 0;
+	color:#202120;
+}
+h3 {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	padding:0;
+	margin:0;
+}
+h3 a:link {
+	text-transform:uppercase;
+	text-decoration:none;
+	color: #4b444e;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	padding:0;
+	margin:0;
+}
+h3 a:visited {
+	text-transform:uppercase;
+	text-decoration:none;
+	color: #4b444e;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	padding:0;
+	margin:0;
+}
+h4 {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	padding:0;
+	margin:0;
+}
+h4 a:link {
+	text-transform:uppercase;
+	text-decoration:none;
+	color: #4b444e;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	padding:0;
+	margin:0;
+}
+h4 a:visited {
+	text-transform:uppercase;
+	text-decoration:none;
+	color: #4b444e;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	padding:0;
+	margin:0;
+}
+h5 {
+	color: #4b444e;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	font-weight:normal;
+	margin:0;
+}
+h5 a:link {
+	color: #4b444e;
+	text-transform:none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	font-weight:normal;
+	margin:0;
+}
+h5 a:visited {
+	color: #4b444e;
+	text-transform:none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	font-weight:normal;
+	margin:0;
+}
+#product-page {
+	padding-top:0px;
+}
+#product-left {
+	width:240px;
+	float:left;
+}
+#product-right {
+	padding-top:0px;
+	width:649px;
+	float:right;
+}
+#product-name {
+	padding:20px 0 15px 0;
+	border-bottom:1px solid #e1e1e1;
+}
+#product-name-left {
+	width: 380px;
+}
+.product-name {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+}
+.product-description {
+	color: #4b444e;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+#product-name-right {
+	width:260px;
+	float:right;
+	text-align:right;
+}
+#product-info-left {
+	float:left;
+	color:#4b444e;
+	padding-right:30px;
+	font-size:20px;
+	font-family: "coolvetica",sans-serif;
+}
+#product-info-right {
+	width:240px;
+	float:right;
+	text-align:right;
+}
+.product-heading {
+	color:#4b444e;
+	padding-top:25px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.product-content {
+	flex:left;
+	color:#4b444e;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top:20px;
+}
+.product-content-list {
+	margin-right:20px;
+}
+.product-content-list li {
+	padding:5px 0;
+	list-style-image: url('http://www.alkaline-tea.com/images/bullet.svg');
+}
+.product-price {
+	flex:left;
+	color:#4b444e;
+	font-size:20px;
+	padding-top:20px;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+}
+#product-label {
+	padding:15px;
+	margin:30px 0 50px 0;
+	border:1px solid #cbcbcb;
+	text-align:left;
+}
+#product-label-line {
+	padding:5px 0;
+	border-bottom:1px solid #cbcbcb;
+}
+.product-label-header {
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.product-label {
+	color:#b6b6b6;
+	font-size:12px;
+	padding:5px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.product-label-mini {
+	font-size:9px;
+	padding:5px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+#product-label-indent {
+	padding-left:20px;
+}
+.text-align-right {
+	text-align:right;
+}
+#product-ingredients {
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	padding:5px 0;
+}
+#product-picture {
+	margin: 20px 30px 0 0;
+}
+#product-social {
+	margin-top:0px;
+}
+#product-social-item {
+	margin-left:0;
+	height:30px;
+	width:30px;
+}
+#page-title-content-line {
+	padding-top:20px;
+	border-bottom:1px solid #e1e1e1;
+	height:1px;
+}
+#ph-left {
+	padding-top:25px;
+	width:659px;
+	float:left;
+}
+#ph-right {
+	width:230px;
+	float:right;
+}
+#ph-picture {
+	margin: 20px 0px 0 30px;
+}
+#ph-name-left {
+	width: 500px;
+}
+
+
+.rounded {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.rounded-large {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.yanone {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 0;
+}
+#footer {
+	background:hsla(282, 7%, 29%, 1);
+	margin:auto 0;
+}
+#footer-center {
+	width:900px;
+	padding:30px;
+	background:#;
+	margin:auto;
+}
+.footer-header {
+	text-transform:uppercase;
+	color: white;
+	font-size: 14px;
+	text-align:left;
+	line-height:.95;
+	font-weight: bold;
+	font-family: "CenturyGothicStd-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:auto;
+	text-decoration:none;
+	padding-bottom:15px;
+}
+
+.footer-sub {
+	color:white;
+	padding:8px 0;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration:none;
+	text-align:center;
+}
+#footer-sub {
+	padding:2px 0;
+}
+#footer-legal {
+	background:#3b3d3e;
+	margin:auto 0;
+}
+.footer-legal {
+	color: #b5b5b5;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	text-align:center;
+}
+#footer-legal-center {
+	width:1000px;
+	background:#;
+	padding:15px;
+	margin:auto;
+}
+.rollover {
+	opacity:1;
+}
+.rollover:hover {
+	opacity:.95;
+}
+#instagram {
+	margin-top:30px;
+	min-width:936px;
+}
+#instagram-item {
+	height:150px;
+	background:#e1e1e1;
+}
+#slide-control {
+	width:30px;
+	height:200px;
+	background:hsla(0, 100%, 100%, 0.5);
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+	cursor:pointer;
+}
+#slide-control:hover {
+	width:30px;
+	height:200px;
+	background:hsla(0, 100%, 100%, 0.55);
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+	cursor:pointer;
+}
+
+<!-- BLOG -->
+
+#blog-wrapper {
+	margin:auto;
+}
+#blog {
+	width:900px;
+	margin:auto;
+	padding:20px 20px 0 20px;
+}
+#blog-item {
+	margin-right:30px;
+}
+#blog-item-right {
+	margin-right:0px;
+}
+#blog-title {
+	padding-top:15px;
+}
+#blog-title a:link {
+	text-decoration:none;
+	color:hsla(0, 0%, 25%, 1);
+}
+#blog-title a:hover {
+	text-decoration:none;
+	color:hsla(0, 0%, 25%, 1);
+}
+#blog-date {
+	color:#b6b6b6;
+	padding-top:20px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+#blog-photo {
+	height:280px;
+}
+#blog-excerpt {
+	color:#4b444e;
+	padding:10px 0 45px 0;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+<!-- BLOG PAGE -->
+#blog-page-wrapper {
+	margin-top:0px;
+	padding:30px 0 0 0;
+}
+#blog-page {
+	padding:40px 20px 0 20px;
+	width:900px;
+	margin:auto;
+}
+#blog-page-name {
+	padding:20px 0 15px 0;
+	border-bottom:1px solid #e1e1e1;
+}
+#blog-page-name-left {
+	width: ;
+}
+.blog-page-name {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+}
+.blog-page-date {
+	color:#b6b6b6;
+	padding-top:0px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+#blog-page-name-right {
+	width:380px;
+	float:right;
+	text-align:right;
+}
+#blog-page-photo {
+	width:400px;
+	float:right;
+	padding:0 0 0 20px;
+}
+.blog-page-content {
+	color:#4b444e;
+	padding-top:25px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom:40px;
+}
+#blog-page-related {
+	padding-top:50px;
+	border-top:1px solid #e1e1e1;
+	margin-top:10px;
+}
+
+.page-title-center {
+	text-align:center;
+	padding-top:15px;
+}
+.page-title-content {
+	color:#4b444e;
+	margin:auto;
+	margin-bottom:0px;
+	font-size:14px;
+	padding-top:10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.page-title-content-center {
+	color:#4b444e;
+	text-align:center;
+	margin:auto;
+	margin-bottom:20px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+#page-feature {
+	margin:auto;
+	padding:0px 0 15px 0;
+	border-bottom:1px solid #e1e1e1;
+}
+.page-feature-sub {
+	color:#4b444e;
+	padding-top:20px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+#page-feature-slide {
+	padding:0 0 30px 0;
+}
+#page-feature-photo {
+	float:right;
+	padding:5px 0 20px 20px;
+	width:200px;
+	height:200px;
+}
+
+#ingredients {
+	width:900px;
+	margin:auto;
+	padding:0;
+}
+#ingredients-slide {
+	padding:0 0 0 0;
+}
+#ingredients-main-sub {
+	color:#b6b6b6;
+	padding:20px 0 5px 0;
+	text-align:;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+#ingredients-main-center {
+	padding-bottom:10px;
+}
+#ingredients-main-content {
+	color:#4b444e;
+	margin:auto;
+	margin-bottom:30px;
+	font-size:14px;
+	width:900px;
+	font-family: 'Open Sans', sans-serif;
+}
+#ingredients-item {
+	margin-right:30px;
+}
+#ingredients-item-right {
+	margin-right:0px;
+}
+#ingredients-title {
+	text-transform:uppercase;
+	color: #4b444e;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top:5px;
+	font-family: 'Fjalla One', sans-serif;
+}
+#ingredients-title a:link {
+	text-decoration:none;
+	color:hsla(0, 0%, 25%, 1);
+}
+#ingredients-title a:hover {
+	text-decoration:none;
+	color:hsla(0, 0%, 25%, 1);
+}
+#ingredients-date {
+	color:#b6b6b6;
+	padding-top:20px;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+#ingredients-photo {
+	height:280px;
+}
+#ingredients-excerpt {
+	color:#4b444e;
+	padding:10px 0 50px 0;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#index-label {
+	padding:20px 0;
+	text-align:center;
+}
+
+#demo-container {
+	padding:20px 0;
+	height:320px;
+}
+
+#twitter {
+	width:300px;
+	height:50px;
+}
+#twitter-tweet-box {
+	width:300px;
+}	
+#twitter-photo {
+	width:50px;
+	height:50px;
+	float:left;
+	margin-right:15px;
+}
+#twitter-account {
+	width:235px;
+	float:right;
+	height:50px;
+}
+#twitter-info { 
+	float:left;
+	width:130px;
+}
+#twitter-button {
+	width:70px;
+	float:right;
+	text-align:right;
+}
+.twitter-name {
+	color:#4e424e;
+	font-size:18px;
+	padding:10px 0 0 0;
+	margin:0;
+	font-family: 'Fjalla One', sans-serif;
+		font-weight:bold;
+	line-height:.95;
+}
+#twitter-tweet {
+	padding:15px 0;
+	border-bottom:1px #e1e1e1 solid;
+}
+a.twitter-link {
+	color:#a4a4a4;
+	font-size:12px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding:0;
+	margin:0;
+	font-weight:normal;
+	text-decoration:none;
+}
+.twitter-text {
+	color:#4e424e;
+	font-size:15px;
+	padding:5px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+}
+a.twitter-text {
+	color:#c55070;
+	font-size:15px;
+	padding:5px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+}
+.twitter-time {
+	color:#a4a4a4;
+	font-size:11px;
+	padding:5px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	text-align:right;
+}
+/*****************************************************/
+/* Additional Styles for MailChimp/Instagram/Twitter */
+/*****************************************************/
+
+/* Mail Chimp Stuff */
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+}
+
+.mc-sub-header, .mc-sub-social {
+	margin-top: -11px;
+}
+#mce-responses  {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+  color: #4b444e;
+	padding-top: 5px;
+}
+
+/*Instagram API CSS */
+#instafeed {
+	text-align: center;
+}
+
+.insta-pic {
+	border-radius:5px; 
+	max-width:13%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Twitter API CSS */
+#twitter-button {
+margin-right: 25px;
+}
