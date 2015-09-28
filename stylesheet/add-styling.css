@@ -33,6 +33,9 @@
 }
 
 /* Twitter API CSS */
+#twitter-info {
+	width: 75px;
+}
 #twitter-button {
-margin-right: 25px;
+margin-right: 75px;
 }
