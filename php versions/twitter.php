@@ -8,13 +8,13 @@
 </div>
 					<div id="twitter-button">
 						<a class="twitter-follow-button"
-  href="https://twitter.com/AlkalineTea" data-show-count="false" data-show-screen-name="true">
+href="https://twitter.com/AlkalineTea" data-show-count="false" data-show-screen-name="true">
 Follow @AlkalineTea</a>
 					</div>
 				</div>
 		</div>
 </div>
 <div id="twitter-tweet-box">
-	<a class="twitter-timeline" href="https://twitter.com/alkalinetea" data-widget-id="648502034740613120" data-chrome="noheader nofooter noborders noscrollbar transparent" width="300" height="363" tweet-limit="1">Tweets by @alkalinetea</a>
+	<a class="twitter-timeline" href="https://twitter.com/alkalinetea" data-widget-id="648502034740613120" data-chrome="noheader nofooter noborders noscrollbar transparent" width="300" height="363" data-tweet-limit="3" data-link-color="#c55070">Tweets by @alkalinetea</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
